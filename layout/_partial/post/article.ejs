@@ -5,6 +5,10 @@
 	<article itemprop="articleBody"> 
 		<%- partial('header') %>
 	<div class="article-content">
+
+    <span id="busuanzi_container_page_pv">
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+</span>
 		<% if( table&&(item.toc !== false) && theme.toc.article){ %>
 		<div id="toc" class="toc-article">
 			<strong class="toc-title"><%= __('contents') %></strong>
